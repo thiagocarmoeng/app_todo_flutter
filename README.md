@@ -1,6 +1,7 @@
 # Developed entire application to consolidate knowledge about flutter + dart.
 
-what i learned building this app?
+What i learned building this app?
+
 FutureBuilder: Screen construction widget capable of waiting for asynchronous information. FutureBuilder must have two parameters: future:, responsible for asynchronous information, and builder:, responsible for building the screen. It is worth remembering that we use the concept of snapshot as a variable capable of storing asynchronous information.
 
 ConnectionState: We learned that when dealing with a database (or any information that comes from outside our project) we have to be aware of the information waiting time. Today it is very common to believe that, because it is extremely fast, we do not have a waiting time when receiving data. However, there is a time when the information is not complete and, in this case, we use the ConnectionState (which is the current state of the snapshot) to build several screens depending on the state of the information.
